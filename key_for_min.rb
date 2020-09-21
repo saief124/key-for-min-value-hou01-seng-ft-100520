@@ -22,7 +22,8 @@ def key_for_min_value(name_hash)
     elsif name_hash==nil
       return nil
     end #ends the if elseif block
+    
 value +=1 #increment the value for conditional statement
-
+key   +=1 #increment the key for conditional statement
   end #ends the do block
 end #ends the method
