@@ -8,7 +8,9 @@ def key_for_min_value(name_hash)
       return key
   #    return s
     end
-
+elsif value>value+1
+  return key+1
+  
 #    else
 #    s=key+1
 #    return s
