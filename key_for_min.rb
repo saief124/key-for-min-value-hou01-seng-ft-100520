@@ -21,8 +21,7 @@ def key_for_min_value(name_hash)
 
 #  end #ends the while do block
     i +=1
-value +=1 #increment the value for conditional statement
-key   +=1 #increment the key for conditional statement
+
 a
 b
   end #ends the do block
