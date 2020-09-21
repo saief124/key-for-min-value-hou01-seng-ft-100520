@@ -13,9 +13,7 @@ def key_for_min_value(name_hash)
   if value<i
     i=value
     b=key
-    value=value+1
-    key=key+1
-  return b
+    return b
 
   elsif name_hash=={}
     key=nil
