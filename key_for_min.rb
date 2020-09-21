@@ -25,5 +25,5 @@ value +=1 #increment the value for conditional statement
 key   +=1 #increment the key for conditional statement
 a
 b
-#  end #ends the do block
+  end #ends the do block
 end #ends the method
