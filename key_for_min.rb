@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     if value<value+1
     #  i=value
       return key
-      
+
 
     elsif value>value+1
 
