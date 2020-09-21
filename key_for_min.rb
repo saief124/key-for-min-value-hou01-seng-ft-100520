@@ -18,7 +18,8 @@ def key_for_min_value(name_hash)
     b=key+1
   return b
   elsif name_hash=={}
-    return nil
+    key=nil
+    return key
    end #ends the if elseif block
 
 #  end #ends the while do block
