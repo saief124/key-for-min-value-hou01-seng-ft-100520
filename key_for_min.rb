@@ -7,14 +7,10 @@ def key_for_min_value(name_hash)
     if value<value+1
       return key
   #    return s
+    else
+      return key+1
     end
-elsif value>value+1
-  return key+1
-  
-#    else
-#    s=key+1
-#    return s
-#    end
+
 
 
   end
