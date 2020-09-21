@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
    while i<length.name_hash do
 
     if a[i]<a[i+1]
-    
+
       return b[i]
   #  elsif value>value+1
 #      return key+1
