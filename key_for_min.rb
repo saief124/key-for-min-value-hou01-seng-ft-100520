@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
    a=value #storing the values in an empty array
    b=key # storing the keys in an empty array
-   while i<length.name_hash do
+   while i<name_hash.length do
 
     if a[i]<a[i+1]
 
