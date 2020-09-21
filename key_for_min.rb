@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
    a=value #storing the values in an empty array
    b=key # storing the keys in an empty array
-   
+
 
     if a[i]<a[i+1]
 i=i+1
@@ -18,7 +18,7 @@ i=i+1
     elsif name_hash==nil
       return nil
     end #ends the if elseif block
-  
+
 value +=1 #increment the value for conditional statement
 key   +=1 #increment the key for conditional statement
   end #ends the do block
