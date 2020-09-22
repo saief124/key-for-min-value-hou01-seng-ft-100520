@@ -13,6 +13,6 @@ end
 return b[i]
   end #ends the do block
 
- 
+
 # binding.pry
 end #ends the method
