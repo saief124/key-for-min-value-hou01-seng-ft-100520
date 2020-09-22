@@ -10,8 +10,9 @@ def key_for_min_value(name_hash)
    i=value
 
 end
+return b[i]
   end #ends the do block
 
- return b[i]
+ 
 # binding.pry
 end #ends the method
