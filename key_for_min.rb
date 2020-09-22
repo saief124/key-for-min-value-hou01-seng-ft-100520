@@ -8,10 +8,10 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
    if value<i
    i=value
-   b=key
+   
 end
   end #ends the do block
 
- return b
+ return b[i]
 # binding.pry
 end #ends the method
