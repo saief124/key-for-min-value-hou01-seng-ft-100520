@@ -8,9 +8,9 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
    if value<i
    i=value
-
 end
-return b[i]
+name_hash.select{|key,value| value==i}
+
   end #ends the do block
 
 
