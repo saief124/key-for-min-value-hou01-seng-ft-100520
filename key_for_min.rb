@@ -6,9 +6,9 @@ def key_for_min_value(name_hash)
  b={}
  i=1000
   name_hash.each do |key, value|
-   if value<i 
+   if value<i
    i=value
-   b=key 
+   b=key
 end
   end #ends the do block
 
