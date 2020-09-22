@@ -8,10 +8,10 @@ def key_for_min_value(name_hash)
    if value<i
    i=value
 end
-name_hash.key(i)
+
 
   end #ends the do block
 
-
+name_hash.key(i)
 # binding.pry
 end #ends the method
