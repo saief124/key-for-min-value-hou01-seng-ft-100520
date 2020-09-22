@@ -6,11 +6,12 @@ def key_for_min_value(name_hash)
  b={}
  i=1000
   name_hash.each do |key, value|
-   if value<i #storing the values in an empty array
-   i=value # storing the keys in an empty hash
+   if value<i 
+   i=value
+   b=key 
 end
   end #ends the do block
 
- return i
+ return b
 # binding.pry
 end #ends the method
