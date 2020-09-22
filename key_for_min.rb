@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
 
 puts key
 puts value
-binding.pry
+
 
 #  end #ends the while do block
 
@@ -20,4 +20,5 @@ binding.pry
 
 
   end #ends the do block
+  binding.pry
 end #ends the method
