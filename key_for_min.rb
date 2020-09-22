@@ -13,14 +13,14 @@ def key_for_min_value(name_hash)
   if value<i
     i=value
     b=key
-
+value=value+1
 
   elsif name_hash=={}
     key=nil
     return key
    end #ends the if elseif block
 i=i+1
-value=value+1
+
 return i
 
 #  end #ends the while do block
