@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
  b={}
  i=1000
   name_hash.each do |key, value|
-   if value<i #comparing first value to 1000
+   if value<i #comparing if first value is less than variable i which is 1000
    i=value #setting variable i to the value, so it can compare with the value in next iteration
 end
 
